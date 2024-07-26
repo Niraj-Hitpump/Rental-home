@@ -1,0 +1,28 @@
+.carousel-container {
+     position: relative;
+     height: 70vh; /* 70% of the viewport height */
+     overflow: hidden;
+     width: 100%;
+   }
+   
+   .carousel-inner {
+     display: flex;
+     transition: transform 2s ease-in-out;
+     width: 400%; /* 100% for each image if there are 4 images */
+   }
+   
+   .carousel-image {
+     min-width: 100%; /* Each image takes up 100% of the container's width */
+     height: 100%;
+     object-fit: cover; /* Cover the entire container */
+   }
+   
+   .position-absolute {
+     top: 50%; /* Center the content vertically */
+     transform: translateY(-50%); /* Adjust centering */
+   }
+   
+   .text-left {
+     text-align: left;
+   }
+   
